@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+iframe{
+	border: 10px groove #ffd32a;
+}
+
+/*Хор Вираб*/
+.card{	
+	background-color: #ff3f34;
+}
+
+.card h1{
+	text-align: center;
+	border: 10px dashed #34e7e4;
+	padding: 10px 100px 10px 100px;
+	margin: 0 0 10px 0;
+}
+
+.card img{
+	float: left;
+	border: 10px inset #4bcffa;
+	width: 400px;
+	height: 300px;
+}
+
+.card p{
+	border: 4px dotted black;
+	padding: 30px;
+	font-size: 30px;
+	font-style: italic;
+}
+
+/*Севан*/
+.cardtwo{
+	background-color: #3c40c6;
+}
+
+.cardtwo h1{
+	text-align: center;
+	margin: 5px;
+}
+
+.cardtwo img{
+	
+	border: 10px inset #4bcffa;
+	width: 500px;
+	height: 400px;
+	
+}
+
+.cardtwo p{
+	border: 4px dotted black;
+	padding: 50px; 
+	font-size: 30px;
+	font-style: italic;
+}
+
+
+/*Гарни гехард*/
+.cardtree{
+	background-color: #ffa801;
+}
+
+.cardtree h1{
+	text-align: center;
+}
+
+.cardtree img{
+	border: 10px inset #4bcffa;
+	width: 500px;
+	height: 400px;
+}
+
+.cardtree p{
+	border: 4px dotted black;
+	padding: 30px;
+	font-size: 35px;
+	font-style: italic;
+}
+
+@media (max-width: 800px){
+	iframe{
+		height: 300px;
+		width: 300px;
+	}
+}
+
+@media (max-width: 900px){
+	.card{
+		background-color: #808e9b;
+	}
+
+	.cardtwo{
+		background-color: #808e9b;
+	}
+
+	.cardtree{
+		background-color: #808e9b;
+	}
+}
+
+@media (max-width: 750px){
+	.card p{
+		font-size: 10px;
+	}
+
+	.cardtwo p{
+		font-size: 10px;
+	}
+	
+	.cardtree p{
+		font-size: 10px;
+	}
+}
