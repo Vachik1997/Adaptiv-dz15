@@ -44,11 +44,12 @@ iframe{
 }
 
 .cardtwo img{
-	
 	border: 10px inset #4bcffa;
 	width: 500px;
 	height: 400px;
-	
+}
+#sevann{
+	justify-content: center;
 }
 
 .cardtwo p{
@@ -79,6 +80,25 @@ iframe{
 	padding: 30px;
 	font-size: 35px;
 	font-style: italic;
+}
+
+.logo img{
+	height: 100px;
+	width: 100px;
+	display: flex;
+}
+
+.logo ul{
+	display: flex;
+	justify-content: space-around;
+	background-color: grey;
+	list-style: none;
+}
+
+.logo nav{
+	z-index: 10;
+	display: flex;
+	
 }
 
 @media (max-width: 800px){
