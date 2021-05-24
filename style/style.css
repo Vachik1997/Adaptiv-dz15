@@ -12,6 +12,15 @@ iframe{
 	background-color: #ff3f34;
 }
 
+.card div{
+	font-family: serif;
+	font-size: larger;
+	font-weight: bolder;
+	position: absolute;
+	bottom: 320px;
+	left: 320px;
+}
+
 .card h1{
 	text-align: center;
 	border: 10px dashed #34e7e4;
@@ -33,9 +42,21 @@ iframe{
 	font-style: italic;
 }
 
+
+
 /*Севан*/
 .cardtwo{
 	background-color: #3c40c6;
+}
+
+#sevan2{
+	font-family: serif;
+	font-size: larger;
+	font-weight: bolder;
+	position: absolute;
+	left: 300px;
+	top: 1045px;
+	border: none;
 }
 
 .cardtwo h1{
@@ -45,12 +66,11 @@ iframe{
 
 .cardtwo img{
 	border: 10px inset #4bcffa;
-	width: 500px;
-	height: 400px;
+	width: 400px;
+	height: 300px;
 }
-#sevann{
-	justify-content: center;
-}
+
+
 
 .cardtwo p{
 	border: 4px dotted black;
@@ -73,6 +93,28 @@ iframe{
 	border: 10px inset #4bcffa;
 	width: 500px;
 	height: 400px;
+}
+
+#garni{
+	font-family: serif;
+	font-size: larger;
+	font-weight: bolder;
+	position: absolute;
+	left: 450px;
+	top: 1830px;
+
+	
+	
+}
+
+#gegard{
+	font-family: serif;
+	font-size: larger;
+	font-weight: bolder;
+	position: absolute;
+	top: 1830px;
+	right: 500px;
+	
 }
 
 .cardtree p{
